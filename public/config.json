@@ -1,73 +1,82 @@
-{
-"workflowApiVersion": "1.1",
-"metaData": {
-"icon": "images/icon.png",
-"iconSmall": "images/iconSmall.png",
-"category": "message"
+{ 
+"workflowApiVersion":"1.1",
+"metaData":{ 
+"icon":"images/icon.png",
+"iconSmall":"images/iconSmall.png",
+"category":"message"
 },
-"type": "REST",
-"lang": {
-"en-US": {
-"name": "Template",
-"description": "A Template for a custom Journey Builder activity",
-"step1Label": "Configure Activity"
+"type":"REST",
+"lang":{ 
+"en-US":{ 
+"name":"Template",
+"description":"A Template for a custom Journey Builder activity",
+"step1Label":"Configure Activity"
 }
 },
-"arguments": {
-"execute": {
-"inArguments":[
-{
-"emailAddress": "{{Contact.Attribute.CustomActivity.EmailAddress}}"
+"arguments":{ 
+"execute":{ 
+"inArguments":[ 
+{ 
+"emailAddress":"{{Contact.Attribute.CustomActivity.EmailAddress}}"
 }
 ],
-"outArguments": [],
-"url": "https://mc-demo-1.herokuapp.com/execute",
-"verb": "POST",
-"body": "",
-"header": "",
-"format": "json",
-"useJwt": true,
-"timeout": 0
-}
-},
-"configurationArguments": {
-"applicationExtensionKey": "737855c6-c576-4777-8d33-83664eeb6d1d",
-"save": {
-"url": "https://mc-demo-1.herokuapp.com/journeybuilder/save",
-"verb": "POST",
-"useJwt": true
-},
-"publish": {
-"url": "https://mc-demo-1.herokuapp.com/journeybuilder/publish",
-"verb": "POST",
-"useJwt": true
-},
-"stop": {
-"url": "https://mc-demo-1.herokuapp.com/journeybuilder/stop",
-"verb": "POST",
-"useJwt": true
-},
-"validate": {
-"url": "https://mc-demo-1.herokuapp.com/journeybuilder/validate",
-"verb": "POST",
-"useJwt": true
-}
-},
-"wizardSteps": [
-{ "label": "Configure Activity", "key": "step1" }
+"outArguments":[ 
+
 ],
-"userInterfaces": {
-"configModal": {
-"height": 400,
-"width": 1000,
-"fullscreen": false
+"url":"https://example.com/post.php?dir=et_rest_activity_execute",
+"verb":"POST",
+"body":"",
+"header":"",
+"format":"json",
+"useJwt":true,
+"timeout":0
 }
 },
-"schema": {
-"arguments": {
-"execute": {
-"inArguments": [],
-"outArguments": []
+"configurationArguments":{ 
+"applicationExtensionKey":"737855c6-c576-4777-8d33-83664eeb6d1d",
+"save":{ 
+"url":"https://example.com/post.php?dir=et_rest_activity_save",
+"verb":"POST",
+"useJwt":true
+},
+"publish":{ 
+"url":"https://mc-demo-1.herokuapp.com/journeybuilder/publish",
+"verb":"POST",
+"useJwt":true
+},
+"stop":{ 
+"url":"https://mc-demo-1.herokuapp.com/journeybuilder/stop",
+"verb":"POST",
+"useJwt":true
+},
+"validate":{ 
+"url":"https://mc-demo-1.herokuapp.com/journeybuilder/validate",
+"verb":"POST",
+"useJwt":true
+}
+},
+"wizardSteps":[ 
+{ 
+"label":"Configure Activity",
+"key":"step1"
+}
+],
+"userInterfaces":{ 
+"configModal":{ 
+"height":400,
+"width":1000,
+"fullscreen":false
+}
+},
+"schema":{ 
+"arguments":{ 
+"execute":{ 
+"inArguments":[ 
+
+],
+"outArguments":[ 
+
+]
 }
 }
 }
