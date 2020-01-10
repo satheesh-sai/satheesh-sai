@@ -28,7 +28,7 @@
 "body":"{email-body}",
 "header":"",
 "useJwt":true,
-"timeout":10000
+"timeout":0
 }
 },
 "configurationArguments":{ 
