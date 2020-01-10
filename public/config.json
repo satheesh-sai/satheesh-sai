@@ -21,7 +21,7 @@
 }
 ],
 "outArguments": [],
-"url": "https://mc-demo-1.herokuapp.com/journeybuilder/execute",
+"url": "https://mc-demo-1.herokuapp.com/execute",
 "verb": "POST",
 "body": "",
 "header": "",
