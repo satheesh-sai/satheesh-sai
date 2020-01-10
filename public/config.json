@@ -48,7 +48,7 @@
         "useJwt": true
       },
       "validate": {
-        "url": "https://mc.s10.exacttarget.com/cloud/#app/Journey%20Builder/validate",
+        "url": "https://dashboard.heroku.com/apps/mc-demo-1/journeybuilder/validate",
         "verb": "POST",
         "useJwt": true
       }
