@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://mc.s10.exacttarget.com/cloud/#app/Journey%20Builder/execute",
+          "url": "https://dashboard.heroku.com/apps/mc-demo-1/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -33,17 +33,17 @@
     "configurationArguments": {
       "applicationExtensionKey": "737855c6-c576-4777-8d33-83664eeb6d1d",
       "save": {
-        "url": "https://mc.s10.exacttarget.com/cloud/#app/Journey%20Builder/save",
+        "url": "https://dashboard.heroku.com/apps/mc-demo-1/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://mc.s10.exacttarget.com/cloud/#app/Journey%20Builder/publish",
+        "url": "https://dashboard.heroku.com/apps/mc-demo-1/journeybuilder/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://mc.s10.exacttarget.com/cloud/#app/Journey%20Builder/stop",
+        "url": "https://dashboard.heroku.com/apps/mc-demo-1/journeybuilder/stop",
            "verb": "POST",
         "useJwt": true
       },
