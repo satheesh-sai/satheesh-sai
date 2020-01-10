@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://dashboard.heroku.com/apps/mc-demo-1/journeybuilder/execute",
+          "url": "https://<your-domain-here>/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -31,24 +31,24 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "737855c6-c576-4777-8d33-83664eeb6d1d",
+      "applicationExtensionKey": "__application_key_from_appcenter_here__",
       "save": {
-        "url": "https://dashboard.heroku.com/apps/mc-demo-1/journeybuilder/save",
+        "url": "https://<your-domain-here>/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://dashboard.heroku.com/apps/mc-demo-1/journeybuilder/publish",
+        "url": "https://<your-domain-here>/journeybuilder/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://dashboard.heroku.com/apps/mc-demo-1/journeybuilder/stop",
+        "url": "https://<your-domain-here>/journeybuilder/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://dashboard.heroku.com/apps/mc-demo-1/journeybuilder/validate",
+        "url": "https://<your-domain-here>/journeybuilder/validate",
         "verb": "POST",
         "useJwt": true
       }
