@@ -30,7 +30,7 @@
         }
     },
     "configurationArguments": {
-      "applicationExtensionKey": "__application_key_from_appcenter_here__",
+      "applicationExtensionKey": "737855c6-c576-4777-8d33-83664eeb6d1d",
       "save": {
         "url": "https://mc-demo-1.herokuapp.com/journeybuilder/save",
           "verb": "POST",
